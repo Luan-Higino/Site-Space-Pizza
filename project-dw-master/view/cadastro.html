@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Cadastro</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastro.css'>
+    <script src='../script/cadastro.js'></script>
+</head>
+<body class="bg">
+    <a class="voltar" href="index.html">Voltar</a>
+    
+    <div class="tudo">
+        <div class="title">
+            <h1>Cadastro</h1>
+            <h3>Cadastre-se para ficar por dentro de todas as nossas promoções</h3><br/>
+        </div>
+            <form class="label">
+            
+                <input type="text" name="name" id="name" placeholder="Nome"/><br/>
+            
+            
+                <input type="email" name="email" id="email" placeholder="Email"/><br/>
+
+            
+                <input type="password" name="password" id="password" placeholder="Senha"/><br/>
+
+            
+                <input type="text" name="cpf_cnpj" id="cpf_cnpj" placeholder="cpf_cnpj"/><br/>
+
+            
+                <input type="date" name="birthday" id="birthday" placeholder="Data de Nascimento"/><br/>
+
+                <label for="terms">Termos:</label>
+                <input class="terms" type="checkbox" name="terms" id="terms"/><br/>
+
+                <input class="bt" type="button" value="Cadastrar" onclick="cadastro()"/><br/>
+
+            </form>
+    </div>    
+
+</body>
+</html>

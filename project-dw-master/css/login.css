@@ -1,0 +1,77 @@
+body,html{
+    background-color: #000000b7;
+    height: 100%;
+    margin: 0;
+}
+.voltar{
+    color: rgb(248, 242, 247);
+    transition: .5s;
+    padding: 7px;
+    margin-top: 10%;
+    
+  }
+  .voltar:hover{
+    color: rgb(142, 53, 160);
+    
+  }
+
+.tudo{
+    width: auto;
+    margin-left: 400px;
+    border-radius: 10px;
+    margin-top: 10%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    position: relative;
+    width: 400px;
+    transition: .5s;
+    position: absolute;
+    left: 450px;
+}
+
+.tudo:hover{
+    border: 5px solid #0ef; 
+    box-shadow: 0 0 20px #0ef;
+
+
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 7%;
+}
+.label{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.bg{
+    background-image: url(../view/img/cadastro.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 550px;
+}
+
+form  input {
+    width: 23rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 0.5rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    
+}
+
+
+.bt{
+    cursor: pointer;
+    width: 200px;
+}
+.bt:hover{
+    color: #0ef;
+    box-shadow: 0 0 20px #0ef;
+}
